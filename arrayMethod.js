@@ -16,6 +16,10 @@ const forEachArray = array.forEach(item => {
 console.log(mapArray)   //[4,5,7,9,11]
 console.log(forEachArray)   //undefined
 
+array.forEach(item => {
+    console.log(item)   // 2 3 5 7 9
+})
+
 
 
 /*
@@ -42,7 +46,7 @@ console.log(filterArray)   // [7,9]
 console.log(mapFilterArray)   //[undefined ,undefined ,undefined ,7 ,9 ]
 
 
-
+// freduce returns a single value
 const sum = array.reduce((acc,item)=> {
     acc = acc+item
     return acc
