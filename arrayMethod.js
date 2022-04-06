@@ -46,7 +46,7 @@ console.log(filterArray)   // [7,9]
 console.log(mapFilterArray)   //[undefined ,undefined ,undefined ,7 ,9 ]
 
 
-// freduce returns a single value
+// reduce returns a single value
 const sum = array.reduce((acc,item)=> {
     acc = acc+item
     return acc
